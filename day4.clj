@@ -1,3 +1,4 @@
+(ns day4)
 
 (require '[clojure.string :as str])
 

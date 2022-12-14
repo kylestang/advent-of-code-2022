@@ -1,3 +1,4 @@
+(ns day6)
 
 (defn part-1 [input]
   (println (+ (count (take-while #(not= (count (distinct %)) 4) (partition 4 1 input))) 4)))
